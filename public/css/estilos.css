@@ -1,0 +1,85 @@
+body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+.card {
+    background-color: #2a2a2a;
+    border: 1px solid #3a3a3a;
+    border-radius: 12px;
+}
+
+.card-header {
+    background-color: #2a2a2a;
+    border-bottom: 1px solid #3a3a3a;
+    font-size: 1rem;
+}
+
+.form-control {
+    background-color: #1a1a1a;
+    border: 1px solid #444;
+    color: #e0e0e0;
+    border-radius: 8px;
+}
+
+.form-control::placeholder {
+    color: #777;
+}
+
+.form-control:focus {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    border-color: #666;
+    box-shadow: none;
+}
+
+#btn-guardar {
+    background-color: transparent;
+    border: 1px solid #aaa;
+    color: #e0e0e0;
+    border-radius: 8px;
+}
+
+#btn-cancelar {
+    background-color: transparent;
+    border: 1px solid #aaa;
+    color: #e0e0e0;
+    border-radius: 8px;
+}
+
+.table {
+    color: #e0e0e0;
+    border-color: #3a3a3a;
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table thead th {
+    background-color: #2a2a2a;
+    border-bottom: 1px solid #444;
+    font-weight: 600;
+}
+
+.table td {
+    border-color: #333;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+    background-color: #252525;
+    color: #e0e0e0;
+}
+
+.btn-editar {
+    background-color: #a08000;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+.btn-eliminar {
+    background-color: #8b1a1a;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
